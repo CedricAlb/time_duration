@@ -1,0 +1,7 @@
+# Provides a simple user interface that tells the developer where to go.
+time_duration.description:
+  path: 'fields/field_time_duration'
+  defaults:
+    _controller: '\Drupal\time_duration\Controller\TimeDurationController::description'
+  requirements:
+    _permission: 'access content'

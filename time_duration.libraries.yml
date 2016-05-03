@@ -1,0 +1,8 @@
+spinners:
+  version: 1.0
+  js:
+    js/time_duration.js: {}
+  dependencies:
+    - core/jquery
+    - globalize/globalize
+    - core/jquery.ui.spinner
