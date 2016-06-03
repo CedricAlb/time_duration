@@ -42,7 +42,7 @@ class TimeDurationWidget extends WidgetBase { //implements WidgetInterface
       '#id' => 'time_duration',
       '#allowed_tags' =>array('input'),
       //'#suffix' => \Drupal\Core\Render\Markup::create('<input id="hours" name="value" value=0 size=3/>:<input id="minutes" name="value" value=0  size=2/>'),
-      '#suffix' => Markup::create('<input id="hours" name="value" value=0 size=3/>:<input id="minutes" name="value" value=0  size=2/>'),
+           '#suffix' => Markup::create('<input id="hours" name="value" value=0 maxlength="2" size=2/>:<input id="minutes" maxlength="2" name="value" value=0  size=2/>'),
       // '#suffix' => $spinners, 
        
       '#default_value' => $value,
